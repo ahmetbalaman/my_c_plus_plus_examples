@@ -13,11 +13,7 @@ using namespace::std;
 
 
 int main() {
-    IntCell data;
-    
-    data.write(5);
-    
-    cout<<data.read()<<endl;
+    overLoadingFunction();
     
     
     return 0;
