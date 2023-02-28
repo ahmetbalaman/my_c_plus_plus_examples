@@ -28,6 +28,7 @@
 		BEE9F24729AE385000A49F23 /* IntCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntCell.h; sourceTree = "<group>"; };
 		BEE9F24A29AE385000A49F23 /* pointerlara_giris.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointerlara_giris.h; sourceTree = "<group>"; };
 		BEE9F24C29AE561500A49F23 /* function_overloading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = function_overloading.h; sourceTree = "<group>"; };
+		BEE9F24D29AE5DEA00A49F23 /* dynamic_memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dynamic_memory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 				BEE9F24729AE385000A49F23 /* IntCell.h */,
 				BEE9F24A29AE385000A49F23 /* pointerlara_giris.h */,
 				BEE9F24C29AE561500A49F23 /* function_overloading.h */,
+				BEE9F24D29AE5DEA00A49F23 /* dynamic_memory.h */,
 			);
 			path = my_c_plus_plus_examples;
 			sourceTree = "<group>";

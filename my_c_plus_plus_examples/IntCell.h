@@ -12,6 +12,10 @@
 
 
 
+#include<iostream>
+
+using namespace::std;
+
 
 class IntCell{
 public:
@@ -19,9 +23,8 @@ public:
         storedValue=0;
     }
     IntCell(int initialValue){
-        initialValue=storedValue;
+        storedValue=initialValue;
     }
-    
     int read(){return storedValue;}
     void write(int x){
         storedValue=x;
@@ -29,3 +32,33 @@ public:
 private:
     int storedValue;
 };
+
+class IntCellAdvanced{
+public:
+    IntCellAdvanced(int initialValue=1):storedValue(initialValue){
+        
+    }
+    int read()const {return storedValue;}
+    void write(int x){
+        storedValue=x;
+    }
+private:
+    int storedValue;
+};
+
+void IntCellMain(){
+    
+    IntCell data1;
+    
+    IntCell data2=IntCell(20);
+    
+    IntCellAdvanced data3;
+    IntCellAdvanced data4=IntCellAdvanced(5);
+    
+    
+    
+    cout<<data1.read()<<endl;
+    cout<<data2.read()<<endl;
+    cout<<"advanced :"<<data3.read()<<endl;
+    cout<<"advanced :"<<data4.read()<<endl;
+}

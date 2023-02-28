@@ -8,14 +8,16 @@
 #include <iostream>
 #include "IntCell.h"
 #include "pointerlara_giris.h"
+#include "function_overloading.h"
+#include "dynamic_memory.h"
 using namespace::std;
 
 
 
 int main() {
-    overLoadingFunction();
     
     
+    mainDynamic();
     return 0;
 }
 
