@@ -17,7 +17,7 @@ using namespace::std;
 int main() {
     
     
-    mainDynamic();
+    mainDynamicList();
     return 0;
 }
 

@@ -34,3 +34,21 @@ void mainDynamic(){
     cout<<"but " << *p<<" pointer is not"<<endl;
 }
 
+void mainDynamicList(){
+    
+    int x;
+    cout<<"give me a number for array length";
+    cin>>x;
+    
+    
+    int *p=new int[x];
+    
+    
+    for(int i=0;i<x;i++){
+        p[i]=i;
+        cout<<p[i]<<endl;
+    }
+    
+    delete[] p;
+    
+}
