@@ -18,6 +18,7 @@ Car::Car(string _carName,string _carType,int _km){
 
 
 string Car::showMeKm(){
+    
     return "\nKm: "+to_string(km);
 }
 
@@ -33,11 +34,19 @@ string Car::showMeEveryThing(){
 }
 
 void Car::setNewName(string _name){
+    
     carName=_name;
 }
 void Car::setNewType(string _type){
     carType=_type;
 }
 void Car::setNewKm(int _km){
-    km=_km;
+   //YOU CAN CHECK VERİABLE İS NEGATİVE OR WHAT EVER TOO
+    
+    if(_km<0){
+        km=0;
+    }else{
+        
+        km=_km;
+    }
 }
