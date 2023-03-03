@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE7C71F029B0A19A006825FF /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7C71EE29B0A19A006825FF /* Car.cpp */; };
+		BE7C71F529B0E505006825FF /* pointer_with_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7C71F329B0E505006825FF /* pointer_with_class.cpp */; };
 		BED6BBFA29AE379F00952DFD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BED6BBF929AE379F00952DFD /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,9 +26,11 @@
 
 /* Begin PBXFileReference section */
 		BE7C71EE29B0A19A006825FF /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		BE7C71F329B0E505006825FF /* pointer_with_class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointer_with_class.cpp; sourceTree = "<group>"; };
+		BE7C71F429B0E505006825FF /* pointer_with_class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pointer_with_class.hpp; sourceTree = "<group>"; };
 		BED6BBF629AE379F00952DFD /* my_c_plus_plus_examples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = my_c_plus_plus_examples; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED6BBF929AE379F00952DFD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		BEDF4B4E29AF51B200BE5C0B /* entering_class.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = entering_class.h; sourceTree = "<group>"; };
+		BEDF4B4E29AF51B200BE5C0B /* Car_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car_Header.h; sourceTree = "<group>"; };
 		BEE9F24729AE385000A49F23 /* IntCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntCell.h; sourceTree = "<group>"; };
 		BEE9F24A29AE385000A49F23 /* pointerlara_giris.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointerlara_giris.h; sourceTree = "<group>"; };
 		BEE9F24C29AE561500A49F23 /* function_overloading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = function_overloading.h; sourceTree = "<group>"; };
@@ -48,10 +51,19 @@
 		BE7C71F129B0A209006825FF /* entering_class */ = {
 			isa = PBXGroup;
 			children = (
-				BEDF4B4E29AF51B200BE5C0B /* entering_class.h */,
+				BEDF4B4E29AF51B200BE5C0B /* Car_Header.h */,
 				BE7C71EE29B0A19A006825FF /* Car.cpp */,
 			);
 			path = entering_class;
+			sourceTree = "<group>";
+		};
+		BE7C71F229B0E4F2006825FF /* class_pointers */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C71F329B0E505006825FF /* pointer_with_class.cpp */,
+				BE7C71F429B0E505006825FF /* pointer_with_class.hpp */,
+			);
+			path = class_pointers;
 			sourceTree = "<group>";
 		};
 		BED6BBED29AE379F00952DFD = {
@@ -73,6 +85,7 @@
 		BED6BBF829AE379F00952DFD /* my_c_plus_plus_examples */ = {
 			isa = PBXGroup;
 			children = (
+				BE7C71F229B0E4F2006825FF /* class_pointers */,
 				BE7C71F129B0A209006825FF /* entering_class */,
 				BED6BBF929AE379F00952DFD /* main.cpp */,
 				BEE9F24729AE385000A49F23 /* IntCell.h */,
@@ -141,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE7C71F029B0A19A006825FF /* Car.cpp in Sources */,
+				BE7C71F529B0E505006825FF /* pointer_with_class.cpp in Sources */,
 				BED6BBFA29AE379F00952DFD /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

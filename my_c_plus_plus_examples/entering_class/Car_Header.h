@@ -18,7 +18,6 @@ using namespace std;
 
 class Car{
 public:
-    
     Car(string _carName,string _carType,int _km);
     string showMeKm();
     string showMeCarType();
@@ -29,6 +28,7 @@ public:
     void setNewKm(int _km);
     
     
+    //Encapsulation!!!
 private:
     string carName;
     string carType;
