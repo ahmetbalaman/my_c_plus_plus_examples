@@ -12,6 +12,7 @@
 #include "dynamic_memory.h"
 #include "pointer_with_class.hpp" 
 #include "Car_Header.h"
+#include "pointers_in_class.hpp"
 
 using namespace::std;
 
@@ -19,35 +20,35 @@ using namespace::std;
 
 
 int main() {
-   // Car car("New","Like a view",123);
-    // cout<<car.showMeEveryThing();
-    // car.setNewKm(321);
-    //cout<<
-    //mainDynamicList();
+    NewCar car("New","Like a view",123,4);
+     cout<<car.showMeEveryThing();
+     car.setNewKm(321);
     
+    cout<<endl<<*(car.classPointer)<<endl;
     
+
+    return 0;
+}
+
+
+
+
+
+
+void carDestructor(){
     Person ahmet("Ahmet","Balaman",20);
     Person samanta("Samanta","sister",25);
     ahmet.getEverything();
-    
     Person *pointerAhmet;
     cout<<endl;
     pointerAhmet=&ahmet;
-    
     pointerAhmet->getEverything();
-    
     pointerAhmet=&samanta;
     cout<<endl;
     pointerAhmet->getEverything();
     pointerAhmet=new Person("bu yeni","gerçek",22);
     cout<<endl;
     pointerAhmet->getEverything();
-    
-    
-    
     delete pointerAhmet;
-    
     cout<<endl;
-    return 0;
 }
-

@@ -10,6 +10,7 @@
 		BE7C71F029B0A19A006825FF /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7C71EE29B0A19A006825FF /* Car.cpp */; };
 		BE7C71F529B0E505006825FF /* pointer_with_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7C71F329B0E505006825FF /* pointer_with_class.cpp */; };
 		BED6BBFA29AE379F00952DFD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BED6BBF929AE379F00952DFD /* main.cpp */; };
+		BEFAAC0229B63C610069AB33 /* pointers_in_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEFAAC0029B63C610069AB33 /* pointers_in_class.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		BEE9F24A29AE385000A49F23 /* pointerlara_giris.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointerlara_giris.h; sourceTree = "<group>"; };
 		BEE9F24C29AE561500A49F23 /* function_overloading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = function_overloading.h; sourceTree = "<group>"; };
 		BEE9F24D29AE5DEA00A49F23 /* dynamic_memory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dynamic_memory.h; sourceTree = "<group>"; };
+		BEFAAC0029B63C610069AB33 /* pointers_in_class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointers_in_class.cpp; sourceTree = "<group>"; };
+		BEFAAC0129B63C610069AB33 /* pointers_in_class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pointers_in_class.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 		BED6BBF829AE379F00952DFD /* my_c_plus_plus_examples */ = {
 			isa = PBXGroup;
 			children = (
+				BEFAAC0329B63C790069AB33 /* pointers_in_class */,
 				BE7C71F229B0E4F2006825FF /* class_pointers */,
 				BE7C71F129B0A209006825FF /* entering_class */,
 				BED6BBF929AE379F00952DFD /* main.cpp */,
@@ -94,6 +98,15 @@
 				BEE9F24D29AE5DEA00A49F23 /* dynamic_memory.h */,
 			);
 			path = my_c_plus_plus_examples;
+			sourceTree = "<group>";
+		};
+		BEFAAC0329B63C790069AB33 /* pointers_in_class */ = {
+			isa = PBXGroup;
+			children = (
+				BEFAAC0029B63C610069AB33 /* pointers_in_class.cpp */,
+				BEFAAC0129B63C610069AB33 /* pointers_in_class.hpp */,
+			);
+			path = pointers_in_class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE7C71F029B0A19A006825FF /* Car.cpp in Sources */,
+				BEFAAC0229B63C610069AB33 /* pointers_in_class.cpp in Sources */,
 				BE7C71F529B0E505006825FF /* pointer_with_class.cpp in Sources */,
 				BED6BBFA29AE379F00952DFD /* main.cpp in Sources */,
 			);

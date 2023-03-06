@@ -24,6 +24,7 @@ public:
     //Destructors
     ~Person();
     void getEverything();
+
     
 private:
     string name;
