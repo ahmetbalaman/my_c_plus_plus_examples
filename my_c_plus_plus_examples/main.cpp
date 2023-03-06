@@ -20,13 +20,20 @@ using namespace::std;
 
 
 int main() {
-    NewCar car("New","Like a view",123,4);
-     cout<<car.showMeEveryThing();
-     car.setNewKm(321);
     
-    cout<<endl<<*(car.classPointer)<<endl;
     
-
+    NewCar*car=new NewCar("New","Like a view",123,4);
+    
+     cout<<car->showMeEveryThing();
+     car->setNewKm(321);
+    cout<<endl<<" pointer Car Door Number: "<<*(car->classPointer)<<endl;
+    cout<<endl<<"Not pointer Car  Method Calling: "<<car->showMeKm()<<endl;
+    NewCar car2("mrb","123",3,4);
+    cout<<endl<<"Not pointer Car Door Number: "<<*(car2.classPointer)<<endl;
+    cout<<endl<<"Not pointer Car  Method Calling: "<<car2.showMeKm()<<endl;
+    cout<<car2.showMeEveryThing();
+    
+    delete car;
     return 0;
 }
 

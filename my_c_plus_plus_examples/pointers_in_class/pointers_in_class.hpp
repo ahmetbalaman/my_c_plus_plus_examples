@@ -16,6 +16,7 @@ using namespace std;
 class NewCar{
 public:
     NewCar(string _carName,string _carType,int _km,int doorNumber);
+    ~NewCar();
     string showMeKm();
     string showMeCarType();
     string showMeName();

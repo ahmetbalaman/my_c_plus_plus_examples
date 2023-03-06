@@ -14,11 +14,14 @@ NewCar::NewCar(string _carName,string _carType,int _km,int doorNumber){
     carType=_carType;
     km=_km;
     classPointer=new int(doorNumber);
-    //  *classPointer=doorNumber;same thing
-
-     
 }
 
+NewCar::~NewCar(){
+    cout<<carName <<"Destroyed";
+    
+    //DELETE POİNTER İN CLASS TOO
+    delete classPointer;
+}
 
 
 string NewCar::showMeKm(){
@@ -34,7 +37,7 @@ string NewCar::showMeCarType(){
 }
 string NewCar::showMeEveryThing(){
     
-    return "\nCar Name: " + carName + " CarType: " + carType + " Car Km: " + to_string(km);
+    return "\nCar Name: " + carName + " CarType: " + carType + " Car Km: " + to_string(km) + "Car Door number Pointer: " + to_string(*classPointer) +"\n";
 }
 
 void NewCar::setNewName(string _name){
