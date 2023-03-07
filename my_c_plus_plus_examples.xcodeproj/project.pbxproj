@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		BE7C71F029B0A19A006825FF /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7C71EE29B0A19A006825FF /* Car.cpp */; };
 		BE7C71F529B0E505006825FF /* pointer_with_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7C71F329B0E505006825FF /* pointer_with_class.cpp */; };
+		BEB7070A29B7538D00981F1F /* animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB7070829B7538D00981F1F /* animal.cpp */; };
+		BEB7070D29B758E100981F1F /* cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB7070B29B758E100981F1F /* cat.cpp */; };
+		BEB7071029B75C8000981F1F /* other_animals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB7070E29B75C8000981F1F /* other_animals.cpp */; };
+		BEB7071929B76A2D00981F1F /* entering_files.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEB7071729B76A2D00981F1F /* entering_files.cpp */; };
 		BED6BBFA29AE379F00952DFD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BED6BBF929AE379F00952DFD /* main.cpp */; };
 		BEFAAC0229B63C610069AB33 /* pointers_in_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BEFAAC0029B63C610069AB33 /* pointers_in_class.cpp */; };
 /* End PBXBuildFile section */
@@ -29,6 +33,14 @@
 		BE7C71EE29B0A19A006825FF /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
 		BE7C71F329B0E505006825FF /* pointer_with_class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointer_with_class.cpp; sourceTree = "<group>"; };
 		BE7C71F429B0E505006825FF /* pointer_with_class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pointer_with_class.hpp; sourceTree = "<group>"; };
+		BEB7070829B7538D00981F1F /* animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = animal.cpp; sourceTree = "<group>"; };
+		BEB7070929B7538D00981F1F /* animal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = animal.hpp; sourceTree = "<group>"; };
+		BEB7070B29B758E100981F1F /* cat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cat.cpp; sourceTree = "<group>"; };
+		BEB7070C29B758E100981F1F /* cat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cat.hpp; sourceTree = "<group>"; };
+		BEB7070E29B75C8000981F1F /* other_animals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = other_animals.cpp; sourceTree = "<group>"; };
+		BEB7070F29B75C8000981F1F /* other_animals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = other_animals.hpp; sourceTree = "<group>"; };
+		BEB7071729B76A2D00981F1F /* entering_files.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = entering_files.cpp; sourceTree = "<group>"; };
+		BEB7071829B76A2D00981F1F /* entering_files.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = entering_files.hpp; sourceTree = "<group>"; };
 		BED6BBF629AE379F00952DFD /* my_c_plus_plus_examples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = my_c_plus_plus_examples; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED6BBF929AE379F00952DFD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BEDF4B4E29AF51B200BE5C0B /* Car_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car_Header.h; sourceTree = "<group>"; };
@@ -69,6 +81,28 @@
 			path = class_pointers;
 			sourceTree = "<group>";
 		};
+		BEB7070729B7536F00981F1F /* entering_inheritance */ = {
+			isa = PBXGroup;
+			children = (
+				BEB7070829B7538D00981F1F /* animal.cpp */,
+				BEB7070929B7538D00981F1F /* animal.hpp */,
+				BEB7070B29B758E100981F1F /* cat.cpp */,
+				BEB7070C29B758E100981F1F /* cat.hpp */,
+				BEB7070E29B75C8000981F1F /* other_animals.cpp */,
+				BEB7070F29B75C8000981F1F /* other_animals.hpp */,
+			);
+			path = entering_inheritance;
+			sourceTree = "<group>";
+		};
+		BEB7071129B768E800981F1F /* entering_files */ = {
+			isa = PBXGroup;
+			children = (
+				BEB7071729B76A2D00981F1F /* entering_files.cpp */,
+				BEB7071829B76A2D00981F1F /* entering_files.hpp */,
+			);
+			path = entering_files;
+			sourceTree = "<group>";
+		};
 		BED6BBED29AE379F00952DFD = {
 			isa = PBXGroup;
 			children = (
@@ -88,14 +122,16 @@
 		BED6BBF829AE379F00952DFD /* my_c_plus_plus_examples */ = {
 			isa = PBXGroup;
 			children = (
-				BEFAAC0329B63C790069AB33 /* pointers_in_class */,
 				BE7C71F229B0E4F2006825FF /* class_pointers */,
+				BEFAAC0329B63C790069AB33 /* pointers_in_class */,
+				BEB7070729B7536F00981F1F /* entering_inheritance */,
 				BE7C71F129B0A209006825FF /* entering_class */,
-				BED6BBF929AE379F00952DFD /* main.cpp */,
+				BEB7071129B768E800981F1F /* entering_files */,
 				BEE9F24729AE385000A49F23 /* IntCell.h */,
 				BEE9F24A29AE385000A49F23 /* pointerlara_giris.h */,
 				BEE9F24C29AE561500A49F23 /* function_overloading.h */,
 				BEE9F24D29AE5DEA00A49F23 /* dynamic_memory.h */,
+				BED6BBF929AE379F00952DFD /* main.cpp */,
 			);
 			path = my_c_plus_plus_examples;
 			sourceTree = "<group>";
@@ -166,8 +202,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB7070D29B758E100981F1F /* cat.cpp in Sources */,
+				BEB7071929B76A2D00981F1F /* entering_files.cpp in Sources */,
 				BE7C71F029B0A19A006825FF /* Car.cpp in Sources */,
 				BEFAAC0229B63C610069AB33 /* pointers_in_class.cpp in Sources */,
+				BEB7071029B75C8000981F1F /* other_animals.cpp in Sources */,
+				BEB7070A29B7538D00981F1F /* animal.cpp in Sources */,
 				BE7C71F529B0E505006825FF /* pointer_with_class.cpp in Sources */,
 				BED6BBFA29AE379F00952DFD /* main.cpp in Sources */,
 			);

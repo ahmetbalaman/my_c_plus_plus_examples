@@ -13,6 +13,10 @@
 #include "pointer_with_class.hpp" 
 #include "Car_Header.h"
 #include "pointers_in_class.hpp"
+#include "animal.hpp"
+#include "cat.hpp"
+#include "other_animals.hpp"
+#include "entering_files.hpp"
 
 using namespace::std;
 
@@ -20,8 +24,30 @@ using namespace::std;
 
 
 int main() {
+    fileWrite();
+    fileRead();
     
     
+    return 0;
+}
+
+
+void inheritance(){
+    Animal animal("animal");
+    animal.eat();
+    animal.sleep();
+    
+    Cat cat("Happy");
+    cat.makeSound();
+    
+    Dog dog("BullDog");
+    dog.makeSound();
+    
+    Bird bird("Cici Kuş");
+    bird.makeSound();
+}
+
+void classInPointer(){
     NewCar*car=new NewCar("New","Like a view",123,4);
     
      cout<<car->showMeEveryThing();
@@ -34,13 +60,7 @@ int main() {
     cout<<car2.showMeEveryThing();
     
     delete car;
-    return 0;
 }
-
-
-
-
-
 
 void carDestructor(){
     Person ahmet("Ahmet","Balaman",20);
