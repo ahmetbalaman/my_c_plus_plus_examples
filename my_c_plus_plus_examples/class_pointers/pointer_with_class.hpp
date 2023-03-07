@@ -10,8 +10,6 @@
 
 #include <iostream>
 
-#endif /* pointer_with_class_hpp */
-
 using namespace std;
 
 class Person{
@@ -31,3 +29,7 @@ private:
     string surname;
     int age;
 };
+
+
+#endif /* pointer_with_class_hpp */
+

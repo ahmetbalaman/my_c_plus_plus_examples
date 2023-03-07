@@ -11,7 +11,6 @@
 #include <iostream>
 
 using namespace std;
-#endif /* pointers_in_class_hpp */
 
 class NewCar{
 public:
@@ -33,3 +32,6 @@ private:
     string carType;
     int km;
 };
+
+
+#endif /* pointers_in_class_hpp */

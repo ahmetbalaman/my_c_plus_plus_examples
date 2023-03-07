@@ -9,8 +9,6 @@
 #define entering_class_h
 
 
-#endif /* entering_class_h */
-
 #include <iostream>
 
 using namespace std;
@@ -34,3 +32,6 @@ private:
     string carType;
     int km;
 };
+
+
+#endif /* entering_class_h */
