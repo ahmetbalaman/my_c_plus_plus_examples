@@ -8,9 +8,6 @@
 #ifndef pointerlara_giris_h
 #define pointerlara_giris_h
 
-
-#endif /* pointerlara_giris_h */
-
 #include<iostream>
 
 using namespace::std;
@@ -85,3 +82,6 @@ void tryX(int x){
 void tryXWithPointer(int *x){
     *x=30;
 }
+
+
+#endif /* pointerlara_giris_h */

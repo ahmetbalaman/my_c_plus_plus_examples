@@ -6,6 +6,7 @@
 //
 
 #include <iostream>
+#include <vector>
 #include "IntCell.h"
 #include "pointerlara_giris.h"
 #include "function_overloading.h"
@@ -17,21 +18,40 @@
 #include "cat.hpp"
 #include "other_animals.hpp"
 #include "entering_files.hpp"
-
+#include "pointer_with_arrays.h"
+#include "structer_and_pointers.h"
+#include "try_catch_throw.h"
+#include "operator_overloading.h"
+#include "entering_vectors.h"
+#include "entering_virtuals.h"
 using namespace::std;
 
 
+void forEachExample();
+void vectorMain();
 
 
 int main() {
-    fileWrite();
-    fileRead();
-    
+//    mainWithArrays();
+//    mainStructers();
+//    tryCatchThrowExample();
+//    operatorOvarLoadMain();
+//    vectorMain();
+    Base virtual1;
+    Derived delivered1;
+    virtual1.func();
+    delivered1.func();
     
     return 0;
 }
 
-
+void forEachExample(){
+    int a[]={1,2,3,4};
+    
+    for(int item:a){
+        cout<<item<<endl;
+    }
+}
 void inheritance(){
     Animal animal("animal");
     animal.eat();
@@ -78,4 +98,24 @@ void carDestructor(){
     pointerAhmet->getEverything();
     delete pointerAhmet;
     cout<<endl;
+}
+
+
+
+void vectorMain(){
+    vector<int> v;
+    v.push_back(3);
+    v.push_back(2);
+    cout<<v[0]<<endl;
+    cout<<v[1]<<endl;
+    v.pop_back();
+    v.erase(v.end() - 1);
+    cout<<"another delete logic:"<<v[1];
+    
+    
+    int t=v[v.size()-1];
+    cout<<"is it : "<<t;
+    
+    v.pop_back();
+    
 }

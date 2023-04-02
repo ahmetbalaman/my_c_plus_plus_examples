@@ -30,6 +30,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE5D428329CAE2BD00285FD4 /* try_catch_throw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = try_catch_throw.h; sourceTree = "<group>"; };
+		BE5D428529CAF42E00285FD4 /* operator_overloading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = operator_overloading.h; sourceTree = "<group>"; };
+		BE5D428729CAFEBC00285FD4 /* entering_vectors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = entering_vectors.h; path = ../entering_vectors.h; sourceTree = "<group>"; };
+		BE5D428829CB0AFD00285FD4 /* entering_virtuals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = entering_virtuals.h; sourceTree = "<group>"; };
 		BE7C71EE29B0A19A006825FF /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
 		BE7C71F329B0E505006825FF /* pointer_with_class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointer_with_class.cpp; sourceTree = "<group>"; };
 		BE7C71F429B0E505006825FF /* pointer_with_class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pointer_with_class.hpp; sourceTree = "<group>"; };
@@ -41,6 +45,8 @@
 		BEB7070F29B75C8000981F1F /* other_animals.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = other_animals.hpp; sourceTree = "<group>"; };
 		BEB7071729B76A2D00981F1F /* entering_files.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = entering_files.cpp; sourceTree = "<group>"; };
 		BEB7071829B76A2D00981F1F /* entering_files.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = entering_files.hpp; sourceTree = "<group>"; };
+		BEC9735C29BB2667009772F9 /* pointer_with_arrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pointer_with_arrays.h; sourceTree = "<group>"; };
+		BEC9735D29BB8754009772F9 /* structer_and_pointers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structer_and_pointers.h; sourceTree = "<group>"; };
 		BED6BBF629AE379F00952DFD /* my_c_plus_plus_examples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = my_c_plus_plus_examples; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED6BBF929AE379F00952DFD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BEDF4B4E29AF51B200BE5C0B /* Car_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car_Header.h; sourceTree = "<group>"; };
@@ -132,6 +138,12 @@
 				BEE9F24C29AE561500A49F23 /* function_overloading.h */,
 				BEE9F24D29AE5DEA00A49F23 /* dynamic_memory.h */,
 				BED6BBF929AE379F00952DFD /* main.cpp */,
+				BEC9735C29BB2667009772F9 /* pointer_with_arrays.h */,
+				BEC9735D29BB8754009772F9 /* structer_and_pointers.h */,
+				BE5D428329CAE2BD00285FD4 /* try_catch_throw.h */,
+				BE5D428529CAF42E00285FD4 /* operator_overloading.h */,
+				BE5D428729CAFEBC00285FD4 /* entering_vectors.h */,
+				BE5D428829CB0AFD00285FD4 /* entering_virtuals.h */,
 			);
 			path = my_c_plus_plus_examples;
 			sourceTree = "<group>";
