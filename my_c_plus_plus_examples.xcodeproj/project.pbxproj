@@ -30,10 +30,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE234EF429EAF3C0000B1E5E /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		BE5D428329CAE2BD00285FD4 /* try_catch_throw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = try_catch_throw.h; sourceTree = "<group>"; };
 		BE5D428529CAF42E00285FD4 /* operator_overloading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = operator_overloading.h; sourceTree = "<group>"; };
 		BE5D428729CAFEBC00285FD4 /* entering_vectors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = entering_vectors.h; path = ../entering_vectors.h; sourceTree = "<group>"; };
 		BE5D428829CB0AFD00285FD4 /* entering_virtuals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = entering_virtuals.h; sourceTree = "<group>"; };
+		BE6C04AF29E58E8400E420E2 /* StackAsArray */ = {isa = PBXFileReference; lastKnownFileType = folder; path = StackAsArray; sourceTree = "<group>"; };
 		BE7C71EE29B0A19A006825FF /* Car.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
 		BE7C71F329B0E505006825FF /* pointer_with_class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointer_with_class.cpp; sourceTree = "<group>"; };
 		BE7C71F429B0E505006825FF /* pointer_with_class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pointer_with_class.hpp; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		BED6BBED29AE379F00952DFD = {
 			isa = PBXGroup;
 			children = (
+				BE234EF429EAF3C0000B1E5E /* Header.h */,
 				BED6BBF829AE379F00952DFD /* my_c_plus_plus_examples */,
 				BED6BBF729AE379F00952DFD /* Products */,
 			);
@@ -128,6 +131,7 @@
 		BED6BBF829AE379F00952DFD /* my_c_plus_plus_examples */ = {
 			isa = PBXGroup;
 			children = (
+				BE6C04AF29E58E8400E420E2 /* StackAsArray */,
 				BE7C71F229B0E4F2006825FF /* class_pointers */,
 				BEFAAC0329B63C790069AB33 /* pointers_in_class */,
 				BEB7070729B7536F00981F1F /* entering_inheritance */,
